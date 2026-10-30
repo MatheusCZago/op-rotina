@@ -1,0 +1,29 @@
+# Dados pessoais: nunca versionar (o repositório é público)
+OP_backup_*.json
+*_backup*.json
+*backup*.xlsx
+OP_Sistema.xlsx
+*.db
+*.sqlite
+*.sqlite3
+dados/
+privado/
+
+# Arquivos temporários do Excel/Office
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Power BI (versionar só se for decidido; o .pbix pode embutir dados)
+*.pbix
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
